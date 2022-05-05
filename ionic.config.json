@@ -1,0 +1,7 @@
+{
+  "name": "pastelariaApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
