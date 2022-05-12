@@ -1,17 +1,35 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      CARDÁPIO
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-searchbar color="warning"></ion-searchbar>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://www.culinariapravaler.com/image/postagens/2019/10/pastel-de-carne-caseiro-sequinho-e-delicioso-culinaria-pra-valer.jpg">
+    </ion-thumbnail>
+    <ion-label>Pastel de carne</ion-label>
+    <ion-badge color="dark">R$20,00</ion-badge>
+  </ion-item>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://loja.barracadoze.com.br/wp-content/uploads/sites/5/2020/10/pastel-queijo.jpg">
+    </ion-thumbnail>
+    <ion-label>Pastel de queijo</ion-label>
+    <ion-badge color="dark">R$20,00</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://thumb-cdn.soluall.net/prod/shp_products/sp1280fw/9b47eb60-969d-48d8-a3b0-30b9b5faa289/bd6224f1-e1b9-4561-aa7e-121913f71b45.jpg">
+    </ion-thumbnail>
+    <ion-label>Pastel de frango</ion-label>
+    <ion-badge color="dark">R$20,00</ion-badge>
+  </ion-item>
+
 </ion-content>
